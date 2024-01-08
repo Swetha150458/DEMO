@@ -1,4 +1,4 @@
-import streamlit as sṭ
+import streamlit as st
 st.set_page_config(page_title="Flowers")
 st.header("types of flowers")
 
