@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="Flowers")
 st.header("types of flowers")
 
-col1,col2=st.column(2)
+col1,col2=st.columns(2)
 with col1:
   st.subheader("Daisy")
   st.image("./daisy.jpg",caption="Daisy flower",width=300,use_column_width=True)
